@@ -1,4 +1,4 @@
-function colorize(color)
+function Colorize(color)
 
 	color = color or "nightfox"
 
@@ -7,5 +7,5 @@ function colorize(color)
 	vim.api.nvim_set_hl(0, "normalFloat", { bg = "none" })
 end
 
-colorize()
+Colorize()
 
